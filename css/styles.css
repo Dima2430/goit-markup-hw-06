@@ -899,13 +899,15 @@ padding-bottom: 120px;}
   .portfoliolistitem {min-width: 356px;}
   .portfolio {padding-top: 120px;
   padding-bottom: 120px;}
-  .footer {padding: 101.5px 159px 100px 156px;}
+  .footer {padding: 101.5px 0 100px 0;}
   .logofooter {margin-left: 0;}
   .footersocialmedialist {margin-left: 0;
   margin-bottom: 0;}
   .footer-socialmedia-container {margin-left: 120px;
   margin-right: 80px;}
 .footeritem {margin-bottom: 0;}
+
+
 }
 .menu-background { position: fixed;
   top: 0;
