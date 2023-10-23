@@ -26,6 +26,9 @@
           <a class="logo" href="./index.html"
             >Web<span class="web">Studio</span></a
           >
+          <svg class="menu-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
+          </svg>
           <ul class="navigationlist">
             <li>
               <a class="headerlink specialheaderlink" href="./index.html"
@@ -37,7 +40,7 @@
           </ul>
         </nav>
         <address class="address">
-          <ul class="navigationlist">
+          <ul class="address-list">
             <li>
               <a class="address-link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
@@ -122,7 +125,11 @@
           <ul class="teamlist">
             <li class="teamitem">
               <img
-                src="./images/img.jpg"
+                srcset="
+                  ./images/mark-mob-x1-min.jpg 1x,
+                  ./images/mark-mob-x2-min.jpg 2x
+                "
+                src="./images/mark-mob-x1-min.jpg 1x"
                 alt="A photo of a man with beard"
                 width="264"
               />
@@ -164,7 +171,11 @@
             </li>
             <li class="teamitem">
               <img
-                src="./images/img1.jpg"
+                srcset="
+                  ./images/tom-mob-x1-min.jpg 1x,
+                  ./images/tom-mob-x2-min.jpg 2x
+                "
+                src="./images/tom-mob-x1-min.jpg"
                 alt="A young man with a wide smile"
                 width="264"
               />
@@ -205,7 +216,15 @@
               </div>
             </li>
             <li class="teamitem">
-              <img src="./images/img2.jpg" alt="A woman" width="264" />
+              <img
+                srcset="
+                  ./images/camila-mob-x1-min.jpg 1x,
+                  ./images/camila-mob-x2-min.jpg 2x
+                "
+                src="./images/camila-mob-x1-min.jpg"
+                alt="A woman"
+                width="264"
+              />
               <div class="teamworkercontainer">
                 <h3 class="teamheader">Camila Garcia</h3>
                 <p class="teamparagraf">Marketing</p>
@@ -243,7 +262,15 @@
               </div>
             </li>
             <li class="teamitem">
-              <img src="./images/img3.jpg" alt="A man" width="264" />
+              <img
+                srcset="
+                  ./images/daniel-mob-x1-min.jpg 1x,
+                  ./images/daniel-mob-x2-min.jpg 2x
+                "
+                src="./images/daniel-mob-x1-min.jpg"
+                alt="A man"
+                width="264"
+              />
               <div class="teamworkercontainer">
                 <h3 class="teamheader">Daniel Wilson</h3>
                 <p class="teamparagraf">UI Designer</p>
@@ -291,10 +318,34 @@
             <li class="portfoliolistitem">
               <div class="portfolioimgcontainer">
                 <img
-                  src="./images/img4.jpg"
+                  srcset="
+                    ./images/banking-mob-x1-min.jpg 1x,
+                    ./images/banking-mob-x2-min.jpg 2x
+                  "
+                  src="./images/banking-mob-x1-min.jpg"
                   alt="image"
                   width="360"
-                  class="portfolioimg"
+                  class="portfolioimg mob-img"
+                />
+                <img
+                  srcset="
+                    ./images/banking-tab-x1-min.jpg 1x,
+                    ./images/banking-tab-x2-min.jpg 2x
+                  "
+                  src="./images/banking-tab-x1-min.jpg"
+                  alt="image"
+                  width="360"
+                  class="portfolioimg tab-img"
+                />
+                <img
+                  srcset="
+                    ./images/banking-desk-x1-min.jpg 1x,
+                    ./images/banking-desk-x2-min.jpg 2x
+                  "
+                  src="./images/banking-desk-x1-min.jpg"
+                  alt="image"
+                  width="360"
+                  class="portfolioimg desk-img"
                 />
                 <p class="portfolioimgparagraf">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -310,10 +361,34 @@
             <li class="portfoliolistitem">
               <div class="portfolioimgcontainer">
                 <img
-                  src="./images/img5.jpg"
+                  srcset="
+                    ./images/cashless-mob-x1-min.jpg 1x,
+                    ./images/cashless-mob-x2-min.jpg 2x
+                  "
+                  src="./images/cashless-mob-x1-min.jpg"
                   alt="image"
                   width="360"
-                  class="portfolioimg"
+                  class="portfolioimg mob-img"
+                />
+                <img
+                  srcset="
+                    ./images/cashless-tab-x1-min.jpg 1x,
+                    ./images/cashless-tab-x2-min.jpg 2x
+                  "
+                  src="./images/cashless-tab-x1-min.jpg"
+                  alt="image"
+                  width="360"
+                  class="portfolioimg tab-img"
+                />
+                <img
+                  srcset="
+                    ./images/cashless-desk-x1-min.jpg 1x,
+                    ./images/cashless-desk-x2-min.jpg 2x
+                  "
+                  src="./images/banking-desk-x1-min.jpg"
+                  alt="image"
+                  width="360"
+                  class="portfolioimg desk-img"
                 />
                 <p class="portfolioimgparagraf">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -329,10 +404,34 @@
             <li class="portfoliolistitem">
               <div class="portfolioimgcontainer">
                 <img
-                  src="./images/img6.jpg"
+                  srcset="
+                    ./images/meditation-mob-x1-min.jpg 1x,
+                    ./images/meditation-mob-x2-min.jpg 2x
+                  "
+                  src="./images/meditation-mob-x1-min.jpg"
                   alt="image"
                   width="360"
-                  class="portfolioimg"
+                  class="portfolioimg mob-img"
+                />
+                <img
+                  srcset="
+                    ./images/meditation-tab-x1-min.jpg 1x,
+                    ./images/meditation-tab-x2-min.jpg 2x
+                  "
+                  src="./images/meditation-tab-x1-min.jpg"
+                  alt="image"
+                  width="360"
+                  class="portfolioimg tab-img"
+                />
+                <img
+                  srcset="
+                    ./images/meditation-desk-x1-min.jpg 1x,
+                    ./images/meditation-desk-x2-min.jpg 2x
+                  "
+                  src="./images/meditation-desk-x1-min.jpg"
+                  alt="image"
+                  width="360"
+                  class="portfolioimg desk-img"
                 />
                 <p class="portfolioimgparagraf">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -348,10 +447,34 @@
             <li class="portfoliolistitem">
               <div class="portfolioimgcontainer">
                 <img
-                  src="./images/img7.jpg"
+                  srcset="
+                    ./images/taxi-mob-x1-min.jpg 1x,
+                    ./images/taxi-mob-x2-min.jpg 2x
+                  "
+                  src="./images/taxi-mob-x1-min.jpg"
                   alt="image"
                   width="360"
-                  class="portfolioimg"
+                  class="portfolioimg mob-img"
+                />
+                <img
+                  srcset="
+                    ./images/taxi-tab-x1-min.jpg 1x,
+                    ./images/taxi-tab-x2-min.jpg 2x
+                  "
+                  src="./images/taxi-tab-x1-min.jpg"
+                  alt="image"
+                  width="360"
+                  class="portfolioimg tab-img"
+                />
+                <img
+                  srcset="
+                    ./images/taxi-desk-x1-min.jpg 1x,
+                    ./images/taxi-desk-x2-min.jpg 2x
+                  "
+                  src="./images/taxi-desk-x1-min.jpg"
+                  alt="image"
+                  width="360"
+                  class="portfolioimg desk-img"
                 />
                 <p class="portfolioimgparagraf">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -367,10 +490,34 @@
             <li class="portfoliolistitem">
               <div class="portfolioimgcontainer">
                 <img
-                  src="./images/img8.jpg"
+                  srcset="
+                    ./images/screen-mob-x1-min.jpg 1x,
+                    ./images/screen-mob-x2-min.jpg 2x
+                  "
+                  src="./images/screen-mob-x1-min.jpg"
                   alt="image"
                   width="360"
-                  class="portfolioimg"
+                  class="portfolioimg mob-img"
+                />
+                <img
+                  srcset="
+                    ./images/screen-tab-x1-min.jpg 1x,
+                    ./images/screen-tab-x2-min.jpg 2x
+                  "
+                  src="./images/screen-tab-x1-min.jpg"
+                  alt="image"
+                  width="360"
+                  class="portfolioimg tab-img"
+                />
+                <img
+                  srcset="
+                    ./images/screen-desk-x1-min.jpg 1x,
+                    ./images/screen-desk-x2-min.jpg 2x
+                  "
+                  src="./images/screen-desk-x1-min.jpg"
+                  alt="image"
+                  width="360"
+                  class="portfolioimg desk-img"
                 />
                 <p class="portfolioimgparagraf">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -386,10 +533,34 @@
             <li class="portfoliolistitem">
               <div class="portfolioimgcontainer">
                 <img
-                  src="./images/img9.jpg"
+                  srcset="
+                    ./images/online-mob-x1-min.jpg 1x,
+                    ./images/online-mob-x2-min.jpg 2x
+                  "
+                  src="./images/online-mob-x1-min.jpg"
                   alt="image"
                   width="360"
-                  class="portfolioimg"
+                  class="portfolioimg mob-img"
+                />
+                <img
+                  srcset="
+                    ./images/online-tab-x1-min.jpg 1x,
+                    ./images/online-tab-x2-min.jpg 2x
+                  "
+                  src="./images/online-tab-x1-min.jpg"
+                  alt="image"
+                  width="360"
+                  class="portfolioimg tab-img"
+                />
+                <img
+                  srcset="
+                    ./images/online-desk-x1-min.jpg 1x,
+                    ./images/online-desk-x2-min.jpg 2x
+                  "
+                  src="./images/online-desk-x1-min.jpg"
+                  alt="image"
+                  width="360"
+                  class="portfolioimg desk-img"
                 />
                 <p class="portfolioimgparagraf">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -418,7 +589,7 @@
           </p>
         </div>
 
-        <div>
+        <div class="footer-socialmedia-container">
           <p class="logofooter">Social media</p>
           <ul class="footersocialmedialist">
             <li class="socialmediaitem">
@@ -471,7 +642,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button type="button" class="modal-btm">
           <svg class="modal-icon" width="8" height="8">
@@ -558,6 +729,70 @@
           </div>
           <button class="form-btm" type="submit">Send</button>
         </form>
+      </div>
+    </div>
+    <div class="menu-background">
+      <div class="menu">
+        <button type="button" class="modal-btm">
+          <svg class="modal-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+        <nav class="navigation">
+          <ul class="navigationlist">
+            <li>
+              <a class="headerlink specialheaderlink" href="./index.html"
+                >Studio</a
+              >
+            </li>
+            <li><a class="headerlink" href="">Portfolio</a></li>
+            <li><a class="headerlink" href="">Contacts</a></li>
+          </ul>
+        </nav>
+        <address class="address">
+          <ul class="address-list">
+            <li>
+              <a class="address-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="address-link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+        <ul class="socialmedialist">
+          <li class="socialmediaitem">
+            <a class="socialmedialink" href=""
+              ><svg class="socialmediasvg" width="16" height="16">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="socialmediaitem">
+            <a class="socialmedialink" href=""
+              ><svg class="socialmediasvg" width="16" height="16">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="socialmediaitem">
+            <a class="socialmedialink" href=""
+              ><svg class="socialmediasvg" width="16" height="16">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="socialmediaitem">
+            <a class="socialmedialink" href="">
+              <svg class="socialmediasvg" width="16" height="16">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   </body>
