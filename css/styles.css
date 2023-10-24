@@ -853,7 +853,7 @@ height: 120px;
   .logofooter {justify-content: left;}
   .footersocialmedialist {margin-left: 0;}
   .footer-socialmedia-container {margin-left: 24px;}
-  .footerlogo {margin-left: 0;}
+  .footerlogo {justify-content: left;}
   .subscribe-header {margin-left: 0;}
   .subscribe-input {width: 264px;}
   .subscribe-btn {margin-left: 24px;
@@ -940,11 +940,10 @@ margin-bottom: 0;}
     .specialheaderlink {margin-right: 40px;}
 .menu .navigationlist {display: flex;
 flex-direction: column;
-padding-left: 16px;
 gap: 40px;
 }
-.menu .navigation {padding-bottom: 168px;
-padding-top: 72px;}
+/* .menu .navigation {padding-bottom: 168px;
+padding-top: 72px;} */
 .headerlink { 
   padding: 0;
 font-size: 36px;
@@ -953,17 +952,28 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 }
+
+.menu { padding: 72px 24px 40px 16px;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: space-between;}
 .menu .address {
   display: flex;
 }
 .menu .address-link {padding: 0;
+  color: var(--SLATE, #434455);
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2; 
+letter-spacing: 0.02em;
 }
+.specialfooterlink > .address-link {color: var(--IRIS, #4D5AE5);}
 .menu .address-list {flex-direction: column;
 gap: 24px;
-padding-left: 16px;}
+}
 .menu .socialmedialist {gap: 40px;
   margin-top: 48px;
-  margin-bottom: 40px;
 }
 .menu .modal-btm {
 background-color: rgba(231, 233, 252, 0.1);
